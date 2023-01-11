@@ -1,34 +1,17 @@
-from tkinter import *
-root = Tk()
-root.geometry("400x200")
+# This is a sample Python script.
 
-def printSomething():
-    label.config(text=entry.get())
+# Press Shift+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-
-ok=Label(root, text="Username")
-ok.grid(row=2,column=1)
-entryvalue = StringVar()
-
-ok1=Label(root, text="Password")
-ok1.grid(row=3,column=1)
-entryvalue2 = StringVar()
-
-entry= Entry(root, textvariable=entryvalue)
-entry.grid(row=2, column=2)
-entry2= Entry(root, textvariable=entryvalue2)
-entry2.grid(row=3, column=2)
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
-button = Button(root, text="Login", command=printSomething)
-button.grid(row=8, column=2)
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('PyCharm')
 
-
-#Create a Label to print the Name
-label= Label(root, text="", font= ('Helvetica 14 bold'), foreground= "red3")
-label.grid(row=1, column=1)
-label= Label(root, text="", font= ('Helvetica 14 bold'), foreground= "red3")
-label.grid(row=2, column=2)
-
-root.mainloop()
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+#pankaj
