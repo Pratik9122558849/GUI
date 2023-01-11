@@ -29,6 +29,6 @@ button.grid(row=8, column=2)
 label= Label(root, text="", font= ('Helvetica 14 bold'), foreground= "red3")
 label.grid(row=1, column=2)
 label= Label(root, text="", font= ('Helvetica 14 bold'), foreground= "red3")
-label.grid(row=1, column=4)
+label.grid(row=2, column=4)
 
 root.mainloop()
