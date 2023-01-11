@@ -18,7 +18,7 @@ entryvalue2 = StringVar()
 entry= Entry(root, textvariable=entryvalue)
 entry.grid(row=2, column=2)
 entry2= Entry(root, textvariable=entryvalue2)
-entry2.grid(row=3, column=3)
+entry2.grid(row=3, column=2)
 
 
 button = Button(root, text="Login", command=printSomething)
